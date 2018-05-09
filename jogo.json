@@ -1,0 +1,1048 @@
+{
+  "cenas": [
+    {
+      "titulo": "O QUARTO",
+      "id": 0,
+      "descricao": "Imerso nas trevas, uma luz no horizonte começa a aparecer e a se espalhar por todos os lados juntamente com um estrondo insuportável, como zunido insuportável. Logo tudo fica claro e uma imagem começa a se formar à sua frente, é um CRIADO-MUDO, então você percebe que acabara de acordar e está em um quarto. Com extrema dificuldade, como se seu corpo tivesse sido atropelado milhares de vezes você levanta da CAMA, põe-se à frente de um alto GUARDA-ROUPAS, e percebe que o quarto ainda contém uma ESCRIVANINHA sob a JANELA e uma PORTA, além de uma QUADRO na parede",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "CRIADO-MUDO",
+          "comando_correto": "check CRIADO-MUDO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": " Não contém nada de útil, somente algumas bugigangas velhas.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Não contém nada de útil, somente algumas bugigangas velhas.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 12,
+          "nome": "PORTAL",
+          "comando_correto": "use PORTAL",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 7,
+          "resultado_positivo": " FOI ",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "O PORTAL.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "CAMA",
+          "comando_correto": "check CAMA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Você tem coisas mais importantes para fazer além de pensar em dormir novamente.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "GUARDA-ROUPAS",
+          "comando_correto": "check GUARDA-ROUPAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Você encontrou uma carta que diz: \n\n... aqui onde estou é tudo muito bonito e calmo, as pessoas também são simpáticas, só estou sentindo falta de duas coisas: de nossos amigos e principalmente de você. Aqui o tempo passa em um ritmo mais acelerado, mas a noite fico sempre pensando em você, nas nossas brincadeiras e nos momentos ao seu lado… Você precisa vir conhecer, iria adorar!... Estou morrendo de saudades...",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "ESCRIVANINHA",
+          "comando_correto": "check ESCRIVANINHA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 3,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Sob a mesa está um notebook aberto, mas está sem carga na bateria.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "JANELA",
+          "comando_correto": "check JANELA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 4,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Está escuro lá fora e a janela está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 1,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": "A porta está trancada por senha.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 5,
+          "resultado_positivo": "A porta esta aberta.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A porta está trancada por senha.",
+          "comando_travado": true
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "QUADRO",
+          "comando_correto": "check QUADRO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 6,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": 5,
+          "descricao": "É apenas um quadro branco, mas… espere… está escrito alguns números… 9735.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O CORREDOR",
+      "id": 1,
+      "descricao": "Ao sair pela porta do quarto, você se depara com um corredor escuro, paredes mal pintadas, sujas e três portas para escolher: porta ESQUERDA, DIREITA ou a da FRENTE.",
+      "itens": [
+        {
+          "cena_alvo": 2,
+          "nome": "ESQUERDA",
+          "comando_correto": "use ESQUERDA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A porta está aberta.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "DIREITA",
+          "comando_correto": "use DIREITA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A porta está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "FRENTE",
+          "comando_correto": "use FRENTE",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A porta está trancada.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O SALÃO",
+      "id": 2,
+      "descricao": "A casa como um todo parecia abandonada, móveis empilhados bloquearam a passagem, uma corrente de ar era perceptível no além MOVEIS, existia uma PORTA à direita.",
+      "itens": [
+        {
+          "cena_alvo": 3,
+          "nome": "MOVEIS",
+          "comando_correto": "use MOVEIS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 4,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A porta esta aberta.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "OS MOVEIS",
+      "id": 3,
+      "descricao": "Indo em direção aos móveis empilhados, na escuridão quase que completa, não conseguindo ver muito além. Uma pausa diante do bloqueio, um arrepio frio sobe pelos seus ossos então algo te puxa violentamente para as trevas. (GAME OVER)"
+    },
+    {
+      "titulo": "A SALA",
+      "id": 4,
+      "descricao": "Sofás rasgados, televisão caída no chão, tudo muito sujo. Uma ESTANTE se mantinha à esquerda junto à parede, entre os sofás havia uma com um leve brilho, parecia uma LANTERNA, imediatamente abaixo a uma JANELA. Logo a sua frente uma PORTA se destacava pelo seu tamanho e desenhos peculiares entalhadas na madeira.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "ESTANTE",
+          "comando_correto": "check ESTANTE",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Não havia nada somente muita poeira e um pedaço de papel… era uma fotografia de uma mulher de vestido porém não dava para ver seu rosto pois estava faltando uma parte, como se alguém tivesse rasgado, poderia ser qualquer pessoa.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "LANTERNA",
+          "comando_correto": "get LANTERNA",
+          "resultado_negativo": null,
+          "obtido": 0,
+          "tipo": 1,
+          "id": 1,
+          "resultado_positivo": "Você pegou uma lanterna.",
+          "resolvido": "1",
+          "id_objeto_destravar": 2,
+          "descricao": "Uma lanterna grande e pesada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 5,
+          "nome": "JANELA",
+          "comando_correto": "use LANTERNA with JANELA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": "Usou a lanterna para quebrar o vidro da janela e assim sair.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A janela está trancada.",
+          "comando_travado": true
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 3,
+          "resultado_positivo": "Usou a lanterna para quebrar o vidro da janela e assim sair.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A janela está trancada.",
+          "comando_travado": true
+        }
+      ]
+    },
+    {
+      "titulo": "O LADO DE FORA",
+      "id": 5,
+      "descricao": "A noite caia com se nunca mais fosse amanhecer, cada momento ali fora parecia que a escuridão aumentava, uma noite sem estrelas com uma leve neblina estagnada no ar frio. Sob a proteção de um pequeno telhado, apenas dois caminhos era visível: DIREITA ou ESQUERDA, o dilema estava lançado.",
+      "itens": [
+        {
+          "cena_alvo": 6,
+          "nome": "DIREITA",
+          "comando_correto": "use DIREITA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Você foi pelo lado direito.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "ESQUERDA",
+          "comando_correto": "use ESQUERDA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Uma área alagada bloqueia a passagem.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A ESCOLHA",
+      "id": 6,
+      "descricao": "Uma pequena área aberta estava á sua frente, onde podia-se ver um BECO escuro, uma JANELA imediatamente à direita e à esquerda algo que parecia um POÇO.",
+      "itens": [
+        {
+          "cena_alvo": 8,
+          "nome": "BECO",
+          "comando_correto": "use BECO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Você foi pelo beco. ",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "JANELA",
+          "comando_correto": "use JANELA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "A janela está aberta.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 7,
+          "nome": "POÇO",
+          "comando_correto": "use POÇO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Você foi em direção ao poço.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O POÇO",
+      "id": 7,
+      "descricao": "Quanto mais perto chegava daquele buraco, mais frio ficava, como se estivesse chegando perto do coração do diabo. Estacionou na borda do buraco, seu corpo inteiro começou a tremer, um medo súbito atacou-lhe a mente ao olhar para baixo, diretamente para as trevas sem fim, então sentiu um toque em suas costas, era tão frio que o paralisou completamente, e em menos de um piscar de olhos, estava caindo, imerso na escuridão, até que abruptamente, um impacto, era seu corpo batendo no chão, sons agonizantes de seus ossos quebrando… para então dar seu último suspiro de vida. (GAME OVER)"
+    },
+    {
+      "titulo": "O OUTRO QUARTO",
+      "id": 8,
+      "descricao": "Ao pular a janela, você se encontra em um quarto bem arrumado, muito diferente do resto do visto até então, parecia quase um santuário intocado. Podia-se ver uma CAMA bem grande, uma COMODA com um CLIPE à direita além de uma PORTA à frente.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "CAMA",
+          "comando_correto": "use CAMA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": " ",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A cama estava arrumada impecavelmente, porém algo lhe chamou a atenção, um fio de cabelo comprido.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "COMODA",
+          "comando_correto": "use COMODA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "As gavetas estavam cheias de roupas femininas, nada que pudesse ser útil naquele momento, exceto por um clips sob a cômoda.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "CLIPE",
+          "comando_correto": "use CLIPE",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 1,
+          "id": 2,
+          "resultado_positivo": "Você coletou um clipe de papel.",
+          "resolvido": "1",
+          "id_objeto_destravar": 4,
+          "descricao": "Apenas um clipe de papel.",
+          "comando_travado": true
+        },
+        {
+          "cena_alvo": 9,
+          "nome": "PORTA",
+          "comando_correto": "use CLIPE with PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 1,
+          "id": 3,
+          "resultado_positivo": "A porta está aberta.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A porta está trancada.",
+          "comando_travado": true
+        }
+      ]
+    },
+    {
+      "titulo": "O BANHEIRO",
+      "id": 9,
+      "descricao": "Um cômodo pequeno, apertado, úmido, totalmente sujo e aparentemente destruído era um banheiro. Um cheiro horrível pairava no ar, como se algo tivesse morrido ali a meses. Fezes estavam espalhadas por toda parte, do chão ao teto. Algo parecia estar bloqueando o cano do RALO, você não consegue alcançar, precisa arranjar algo para puxar o objeto para cima.",
+      "itens": [
+        {
+          "cena_alvo": 10,
+          "nome": "RALO",
+          "comando_correto": "use RALO with CLIPE",
+          "resultado_negativo": "Se você tivesse um CLIPE seria possivel pegar o objeto.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Foi fácil remover o objeto de dentro do cano, pôde-se perceber imediatamente que se tratava de uma aliança. Ao ver a aliança de imediato veio a memória de que aquela casa outrora era dele e de sua esposa, e que aquela aliança era de sua esposa. A tristeza tomou conta de seu coração, os olhos encheram de lágrimas… lembrou-se de tudo que fez para ela, de como tentou salvá-la… de como ela sofreu. Então as lágrimas lavaram-lhe o rosto, um frio inexplicável tomou conta do cômodo, as paredes começaram a congelar, então esgotado tudo se apagou, as trevas outra vez.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Ralo bloqueado por um objeto metálico dentro do cano.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A SOLITÁRIA",
+      "id": 10,
+      "descricao": "Abruptamente ficou tudo claro, você sem encontrava em um cômodo todo branco, vazio, muito iluminado e extremamente limpo. Seus olhos ardiam com a luz, quase deixando-o cego. As únicas coisas que identificou foi uma PORTA com uma abertura escura bem no centro, e um ESPELHO na parede imediatamente a frente da porta. ",
+      "itens": [
+        {
+          "cena_alvo": 11,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": "A porta está trancada.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "A porta está aberta.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A porta possui um buraco no meio, alinhada com o espelho.",
+          "comando_travado": true
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "ESPELHO",
+          "comando_correto": "use LANTERNA with ESPELHO",
+          "resultado_negativo": "Se fosse possivel iluminar a abertura da porta através do espelho...",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "A luz da lanterna refletiu no espelho e iluminou exatamente a abertura da porta destrancando-a.",
+          "resolvido": "1",
+          "id_objeto_destravar": 0,
+          "descricao": "Apenas um espelho, dá para ver a abertura negra da porta.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A REVELAÇÃO",
+      "id": 11,
+      "descricao": "Uma sala escura e úmida surgiu à sua frente. Um frio de doer os ossos arrebate sobre seu ser. No canto da sala uma silhueta lhe chama a atenção, parecia que estava acima do solo, com longas tiras de tecidos emanando daquela coisa. No fundo Você já sabia o que era, uma condenação dos pecados do passado. Um FANTASMA, era sua esposa que outrora lhe amara tanto, agora se aproximava com um semblante pálido e frio. Você sem reação fica paralisado, sem sanber o que fazer, enquanto ela se aproxima, de forma hostil, levitando, como se não houvesse gravidade.",
+      "itens": [
+        {
+          "cena_alvo": 12,
+          "nome": "FANTASMA",
+          "comando_correto": "use LANTERNA with FANTASMA",
+          "resultado_negativo": "Objeto não efetivo. Seja rápido antes que ela o alcance.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Objeto efetivo.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A alma pertubada de sua falecida esposa está tentande te matar.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A REDENCAO",
+      "id": 12,
+      "descricao": "A luz da lanterna a acertou como em um vampiro, queimando-a como o inferno. Muitos gritos de dor e sofrimento saiam de sua ganganta, fazendo com que as paredes tremessem. Uma explosão emanou do corpo dela transformando toda a noite em uma manhâ iluminada. Quando você se da conta está sentado em um banco de praça com um saco de pipocas na mão para dar aos pássaros, e não sabe se tudo o que aconteceu era fruto de sua mente, porem uma lanterna está ao seu lado, suja de sangue. (FIM)"
+    },
+    {
+      "titulo": "O BECO",
+      "id": 13,
+      "descricao": "O corredor era escuro, úmido, e apertado, ficava entre a casa e um muro muito alto. Parecia que não tinha fim. No meio do caminho havia um pedaço de PAPEL. O caminho pelo BECO ainda se estendia à frente.",
+      "itens": [
+        {
+          "cena_alvo": 14,
+          "nome": "BECO",
+          "comando_correto": "use BECO",
+          "resultado_negativo": "Não tem muitas opções.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Você continuou seu caminho pelo beco.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "Havia um caminho longo pela frente",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PAPEL",
+          "comando_correto": "check PAPEL",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "O papel era uma parte de uma carta toda suja, dizia o seguinte:\n\n“Como você foi capaz de fazer isso comigo? quando precisou eu estava ao seu lado e então apronta uma dessas? Me usou depois de tudo que aconteceu, depois do que você fez eu não tenho mais paz, vivo observando tudo à minha volta desconfiando de tudo e de todos. Quando simplesmente só se importou em cumprir seus acordos para não se dar mal, nem se importou com a minha alma, escondeu tudo até o último momento… ”",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O OUTRO LADO DO BECO",
+      "id": 14,
+      "descricao": "Apesar do frio da noite, o suor escorria por entre seus olhos. O beco era frio e quente ao mesmo tempo, com um aroma peculiar de putrefação que parecia vir de toda parte, até que no limiar da visão, o beco acabava em um muro contendo uma pequena ABERTURA destruída no mesmo, mas o BECO se estendia um pouco mais pela direita.",
+      "itens": [
+        {
+          "cena_alvo": 16,
+          "nome": "BECO",
+          "comando_correto": "use BECO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Você foi pela direita.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "O beco se estendia um pouco mais pela direita.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 15,
+          "nome": "ABERTURA",
+          "comando_correto": "use ABERTURA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Você foi pela abertura.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A abertura era escura.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A FENDA",
+      "id": 15,
+      "descricao": "A fenda era escura tão escura que não era possível ver nada por ela. Parecia que uma vóz o chamava para seguir por ela, só um sussurro baixo, quase o sedusindo. Derrepente da escuridão um cilindro de metal, como uma lança, vem em sua direção tão rápido quanto um tiro e atravessa seu cranio. (GAME OVER)"
+    },
+    {
+      "titulo": "A ENTRADA",
+      "id": 16,
+      "descricao": "Várias CAIXAS estavam empilhadas à sua frente, caixas velhas de madeira, e a sua direita, logo acima de sua cabeça, uma PORTINHOLA, tudo muito sujo e embolorado.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "CAIXAS",
+          "comando_correto": "get CAIXAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 1,
+          "id": 0,
+          "resultado_positivo": "Você pegou uma caixa.",
+          "resolvido": "0",
+          "id_objeto_destravar": 1,
+          "descricao": "Uma das caixas parece leve.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 17,
+          "nome": "PORTINHOLA",
+          "comando_correto": "use CAIXAS with PORTINHOLA",
+          "resultado_negativo": "Muito alto para alcançar.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Com a ajuda da caixa, passar pela estreita portinhola foi relativamente fácil, apesar de alguns arranhões.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "A portinhola parecia menor do que aparentava e estava muito alta.",
+          "comando_travado": true
+        }
+      ]
+    },
+    {
+      "titulo": "A LAVANDERIA",
+      "id": 17,
+      "descricao": "Da alta portinhola para cair com as costas em cima de um tanque de mármore, uma queda dolorosa, ainda mais para alguém que está exausto e com medo. MÁQUINAS de lavar se espalharam pelo pequeno cômodo, ROUPAS aos montes no chão, a PORTA bem nas suas costas, e uma entrada de VENTILACÃO à esquerda, esta deveria auxiliar a JANELA.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "MAQUINAS",
+          "comando_correto": "check MAQUINAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "As máquinas estão estragadas, não tem nada de importante aqui.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 18,
+          "nome": "ROUPAS",
+          "comando_correto": "check ROUPAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Em meio a um emaranhado de roupas sujas por todo chão, um pouco de munição se destaca.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " A porta está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "JANELA",
+          "comando_correto": "use JANELA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 3,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " A janela está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 19,
+          "nome": "VENTILACÃO",
+          "comando_correto": "use VENTILACÃO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 4,
+          "resultado_positivo": "Você foi pela entrada de ventilação.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A entrada de ventilação está solta sendo possível passar por ela. ",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A LAVANDERIA",
+      "id": 18,
+      "descricao": "Da alta portinhola para cair com as costas em cima de um tanque de mármore, uma queda dolorosa, ainda mais para alguém que está exausto e com medo. MÁQUINAS de lavar se espalharam pelo pequeno cômodo, ROUPAS aos montes no chão, PISTOLA em meio as roupas, a PORTA bem nas suas costas, e uma entrada de VENTILACÃO à esquerda, esta deveria auxiliar a JANELA.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "MAQUINAS",
+          "comando_correto": "check MAQUINAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "As máquinas estão estragadas, não tem nada de importante aqui.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "ROUPAS",
+          "comando_correto": "check ROUPAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Somente roupas sujas por todo o chão.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " A porta está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "JANELA",
+          "comando_correto": "use JANELA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 3,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " A janela está trancada.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 19,
+          "nome": "VENTILACÃO",
+          "comando_correto": "use VENTILACÃO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 4,
+          "resultado_positivo": "Você foi pela entrada de ventilação.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "A entrada de ventilação está solta sendo possível passar por ela. ",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PISTOLA",
+          "comando_correto": "get PISTOLA",
+          "resultado_negativo": null,
+          "obtido": 0,
+          "tipo": 1,
+          "id": 5,
+          "resultado_positivo": "Você pegou uma Desert Eagle .50",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Uma pistola.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A DESPENSA",
+      "id": 19,
+      "descricao": "Diferentemente da passagem anterior desta vez não houve queda. Mais um cômodo apertado, escuro bagunçado, e com várias PRATELEIRAS. A PORTA estava imediatamente à sua direita, perto de uma poça de SANGUE.",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "PRATELEIRAS",
+          "comando_correto": "check PRATELEIRAS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "As prateleiras estão bagunçadas e destruídas.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 20,
+          "nome": "SANGUE",
+          "comando_correto": "check SANGUE",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "O sangue ainda estava quente. Ao se abaixar para verificar o sangue, um enorme peso parecia que pressionava seus ombros, as paredes começaram a congelar de cima para baixo, uma neblina se formou dentro do cômodo, a agonia aumentava à medida que a neblina ficava mais densa… um desespero tomou conta de seu coração, até que sentiu apenas uma pancada na nuca e tudo apagou.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "PORTA",
+          "comando_correto": "use PORTA",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": null,
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " A porta está trancada.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O CANIL",
+      "id": 20,
+      "descricao": "Ao abrir os olhos percebeu que a escuridão pairava ao seu redor, estava coberto de sangue, não sabia exatamente se era seu ou não, parecia que estava dentro de um canil com pedços de ANIMAIS mutilados. Havia somente um PORTÃO para sair daquele lugar que causava-lhe repulsas. ",
+      "itens": [
+        {
+          "cena_alvo": -1,
+          "nome": "ANIMAIS",
+          "comando_correto": "check ANIMAIS",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": null,
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": "Um OSSO pontudo pode ser útil para alguma coisa.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "OSSO",
+          "comando_correto": "use OSSO",
+          "resultado_negativo": null,
+          "obtido": 0,
+          "tipo": 1,
+          "id": 1,
+          "resultado_positivo": "Você pegou um osso quebrado.",
+          "resolvido": "1",
+          "id_objeto_destravar": 2,
+          "descricao": "Um ossobranco e pontudo.",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 21,
+          "nome": "PORTA",
+          "comando_correto": "use OSSO with PORTAO",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": "O portão está aberto.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": " O portão está trancado.",
+          "comando_travado": true
+        }
+      ]
+    },
+    {
+      "titulo": "A FLORESTA",
+      "id": 21,
+      "descricao": "A vista não alcançava muito além de alguns metros, muitas árvores o rodeava, uma neblina entrelaçam entre a vegetação, como se as árvores acabara de pegar fogo, apenas alguns caminhos podiam ser visto, para FRENTE ou para a DIREITA.",
+      "itens": [
+        {
+          "cena_alvo": 22,
+          "nome": "FRENTE",
+          "comando_correto": "use FRENTE",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Voce conseguiu seguir pela frente.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 25,
+          "nome": "DIREITA",
+          "comando_correto": "use DIREITA",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Você foi para a direita.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A FLORESTA",
+      "id": 22,
+      "descricao": "As árvores se dispunham como num labirinto, parecendo cada vez mais perto uma das outras e mais apertadas eram as trilhas. Em uma das árvores havia algo escrito, como uma MENSAGEM arranhada na madeira. Os caminhos se dividia entre a DIREITA, ESQUERDA ou seguir em FRENTE.",
+      "itens": [
+        {
+          "cena_alvo": 23,
+          "nome": "FRENTE",
+          "comando_correto": "use FRENTE",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Voce foi pela frente.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 25,
+          "nome": "DIREITA",
+          "comando_correto": "use DIREITA",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Você foi para a direita.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 25,
+          "nome": "ESQUERDA",
+          "comando_correto": "use ESQUERDA",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 2,
+          "resultado_positivo": "Voce foi pela esquerda.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": " null",
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": -1,
+          "nome": "MENSAGEM",
+          "comando_correto": "get MENSAGEM",
+          "resultado_negativo": null,
+          "obtido": -1,
+          "tipo": 1,
+          "id": 3,
+          "resultado_positivo": "A mensaguem diz o seguinte: Se arrependerá de tudo o que fez… eu voltarei!",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Uma mensagem escrita com arranhões na madeira.",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "A FLORESTA",
+      "id": 23,
+      "descricao": "Várias árvores se deitavam ao seu redor, como se tivessem sido dobradas por algo muito poderoso, apenas dois caminhos se apresentava, cabe agora escolher entre seguir em FRENTE ou para a DIREITA.",
+      "itens": [
+        {
+          "cena_alvo": 25,
+          "nome": "FRENTE",
+          "comando_correto": "use FRENTE",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Você foi pela frente.",
+          "resolvido": "0",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        },
+        {
+          "cena_alvo": 25,
+          "nome": "DIREITA",
+          "comando_correto": "use DIREITA",
+          "resultado_negativo": "Ação ineficiente.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 1,
+          "resultado_positivo": "Você conseguiu seguir pela direita.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": null,
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O CAMPO",
+      "id": 24,
+      "descricao": "Um campo aberto se estendia à sua frente, uma grama rasteira com flores congeladas se estendia por todo espaço aberto. Uma silhueta vinha em sua direção levitando como se não houvesse gravidade, com um vestido branco longo e sujo. Quando a coisa chegou mais perto pode-se notar que era sua falecida esposa, ou melhor, o FANTASMA dela, e ela queria a todo custo dilacerar você, espalhar por todas aquelas flores frias seu sangue  e vísceras quentes e molhadas.",
+      "itens": [
+        {
+          "cena_alvo": 12,
+          "nome": "FANTASMA",
+          "comando_correto": "use LANTERNA whith FANTASMA",
+          "resultado_negativo": "Objeto não efetivo. Seja rápido antes que ela o alcance.",
+          "obtido": -1,
+          "tipo": 0,
+          "id": 0,
+          "resultado_positivo": "Objeto efetivo.",
+          "resolvido": "1",
+          "id_objeto_destravar": null,
+          "descricao": "Rápido use algo nela antes que a alma pertubada de sua falecida esposa te mate!",
+          "comando_travado": false
+        }
+      ]
+    },
+    {
+      "titulo": "O FIM",
+      "id": 25,
+      "descricao": "O caminho se fecha à sua frente. Um arrepio frio percorre sua espinha até que sente algo atravessar seu corpo pelas costas estourando seu peito, seuas caixa toraxica abre como as asas de um falcão e seu coração ainda batendo se mostra em uma mão na frente de seu rosto. VocÊ está morto. (GAME OVER)"
+    }
+  ],
+  "inventario": {
+    "itens": []
+  },
+  "cena_atual": 0
+}
